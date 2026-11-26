@@ -1,0 +1,134 @@
+[
+ {
+  "id": "doc1",
+  "category": "ML",
+  "title": "Overfitting",
+  "text": "Overfitting happens when a model memorizes training data and fails on new data. Regularization, dropout, early stopping and more data reduce it."
+ },
+ {
+  "id": "doc2",
+  "category": "ML",
+  "title": "Cross-validation",
+  "text": "K-fold cross-validation splits data into k parts, training on k-1 and validating on the rest, giving a more reliable estimate of generalization."
+ },
+ {
+  "id": "doc3",
+  "category": "ML",
+  "title": "Gradient descent",
+  "text": "Gradient descent iteratively updates parameters in the direction that reduces the loss function, controlled by a learning rate."
+ },
+ {
+  "id": "doc4",
+  "category": "ML",
+  "title": "Random forest",
+  "text": "A random forest averages many decision trees trained on bootstrapped samples and random feature subsets to reduce variance."
+ },
+ {
+  "id": "doc5",
+  "category": "ML",
+  "title": "Precision and recall",
+  "text": "Precision is the share of predicted positives that are correct; recall is the share of actual positives found. F1 balances both."
+ },
+ {
+  "id": "doc6",
+  "category": "ML",
+  "title": "Feature scaling",
+  "text": "Standardization and min-max scaling put features on comparable ranges, which helps distance-based and gradient-based models."
+ },
+ {
+  "id": "doc7",
+  "category": "ML",
+  "title": "Class imbalance",
+  "text": "When one class is rare, use resampling, class weights, or metrics like PR-AUC instead of plain accuracy."
+ },
+ {
+  "id": "doc8",
+  "category": "Data",
+  "title": "SQL joins",
+  "text": "INNER JOIN keeps matching rows, LEFT JOIN keeps all left rows plus matches, and FULL JOIN keeps rows from both sides."
+ },
+ {
+  "id": "doc9",
+  "category": "Data",
+  "title": "Window functions",
+  "text": "SQL window functions like ROW_NUMBER, RANK and LAG compute values across related rows without collapsing them."
+ },
+ {
+  "id": "doc10",
+  "category": "Data",
+  "title": "Data cleaning",
+  "text": "Cleaning means handling missing values, removing duplicates, fixing types and treating outliers before analysis."
+ },
+ {
+  "id": "doc11",
+  "category": "Data",
+  "title": "Dashboards",
+  "text": "Good Power BI or Tableau dashboards lead with key KPIs, use consistent colors, and let users filter by time and segment."
+ },
+ {
+  "id": "doc12",
+  "category": "Data",
+  "title": "A/B testing",
+  "text": "An A/B test compares two variants on a metric, using a significance test to check the difference is not random noise."
+ },
+ {
+  "id": "doc13",
+  "category": "Backend",
+  "title": "REST APIs with FastAPI",
+  "text": "FastAPI builds typed REST APIs in Python with automatic validation and interactive OpenAPI documentation."
+ },
+ {
+  "id": "doc14",
+  "category": "Backend",
+  "title": "Caching",
+  "text": "Caching stores frequent results in memory, for example Redis, to cut latency and database load."
+ },
+ {
+  "id": "doc15",
+  "category": "Backend",
+  "title": "Docker",
+  "text": "Docker packages an application with its dependencies into a container that runs the same on any machine."
+ },
+ {
+  "id": "doc16",
+  "category": "Backend",
+  "title": "Database indexing",
+  "text": "An index speeds up reads by avoiding full table scans, at the cost of slower writes and extra storage."
+ },
+ {
+  "id": "doc17",
+  "category": "GenAI",
+  "title": "Vector databases",
+  "text": "A vector database stores embeddings and finds nearest neighbours quickly, enabling semantic search and recommendations."
+ },
+ {
+  "id": "doc18",
+  "category": "GenAI",
+  "title": "Retrieval-augmented generation",
+  "text": "RAG retrieves relevant documents and passes them to a language model so answers are grounded in real data."
+ },
+ {
+  "id": "doc19",
+  "category": "GenAI",
+  "title": "Embeddings",
+  "text": "Embeddings map text to dense vectors so that texts with similar meaning end up close together."
+ },
+ {
+  "id": "doc20",
+  "category": "GenAI",
+  "title": "HNSW index",
+  "text": "HNSW is a layered graph structure for approximate nearest neighbour search, trading a little recall for large speedups."
+ },
+ {
+  "id": "doc21",
+  "category": "GenAI",
+  "title": "Chunking",
+  "text": "Splitting long documents into overlapping chunks keeps each embedding focused and improves retrieval quality."
+ },
+ {
+  "id": "doc22",
+  "category": "GenAI",
+  "title": "Prompt engineering",
+  "text": "Clear instructions, examples and output formats help language models give consistent, useful responses."
+ }
+]
