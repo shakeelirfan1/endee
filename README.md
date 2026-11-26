@@ -32,7 +32,7 @@ user query ──► same embedding model ──► Endee search (+ category fil
 **Prerequisites:** Python 3.10+ and an Endee instance: either [Endee Cloud](https://endee.io) (free to start) or a self-hosted Enterprise instance ([30-day evaluation](https://docs.endee.io/v2/quick-start/enterprise)).
 
 ```bash
-git clone https://github.com/<your-username>/endee.git
+git clone https://github.com/shakeelirfan1/endee.git
 cd endee
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
